@@ -1,0 +1,18 @@
+package loopFor;
+public class ForBrasicExercises1 {
+
+	public static void main(String[] args) {
+		
+		//THE MOST SIMPLE
+		for (int i=0 ; i<5 ; i++) {
+			System.out.println("i = " +i);
+		}
+
+		
+		
+		
+		
+		
+	}
+
+}

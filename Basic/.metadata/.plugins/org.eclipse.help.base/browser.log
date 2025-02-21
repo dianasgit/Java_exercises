@@ -1,0 +1,5 @@
+
+Jun 28, 2023 10:12:46.501 NEW SESSION
+Jun 28, 2023 10:12:46.501 which: no mozilla in (/home/diana/.local/bin:/home/diana/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin)
+Jun 28, 2023 10:12:46.534 which: no netscape in (/home/diana/.local/bin:/home/diana/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin)
+Jun 28, 2023 10:12:46.542 /usr/bin/firefox

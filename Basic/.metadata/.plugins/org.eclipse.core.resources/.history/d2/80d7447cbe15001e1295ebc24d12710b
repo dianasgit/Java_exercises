@@ -1,0 +1,35 @@
+package Aula13;
+
+public class OperadoresJava {
+
+	public static void main(String[] args) {
+
+		/* the operators are SIMBOS THAT ASK TO THE COMPILES TO REALIZE AN OPERATION
+		 * *******ARITIMETICOS: %, /, *, +, -, ++, --
+		 * the + can bu also used to contatenar String (juntar extos, chars, para imprimir ou apenas criar uma outra var que concatene diversas strings)
+		 * the ++ or -- can be write before or after the number or namevar BUT THERE ARE DIFFERENCE
+		 * IF the ++ comes before, the java calculate first and then after use ou print the number ou var...
+		 * if it came later the java will first use or print e the var and only after will sum in the memory, will not print the add number
+		 * 
+		 * 
+		 * RELACIONAIS
+		 * LOGICOS
+		 * DE ASSIGNMENT
+		 * PRECEDÊNCIA
+		 * BITWISE?
+		 * 
+		 * 
+		 * 
+		 * 
+		 */
+		
+		int resultado = 50;
+		
+		System.out.println("Print 50: " +resultado);
+		
+		System.out.println("Print ++50: "+ ++resultado);
+		System.out.println("Print 50++: " + resultado++);
+		
+	}
+
+}

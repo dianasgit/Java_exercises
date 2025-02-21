@@ -1,0 +1,66 @@
+public class Vars {
+	public static void main(String[] args) {
+				// are integers
+				/* 
+				 * BYTE = 8bits = (-2⁷) a (2⁷-1)
+				 * SHORT = 16bits = (-2^15) a (2^15 -1)
+				 * INT = 32bits = (-2^31) a (2^31 -1)
+				 * LONG = 64bits = (-2^63) a (2^63-1)
+				 * 
+				 * As mais usadas são INT e LONG
+				 * para tirar certificação java é preciso memorizar 
+				 
+				 *
+				 * the CHAR is considered a integer.
+				 * you can declare a CHARACTER using a numbers of ASCII table
+				 */
+				
+				// In ASCII the letter o = 111
+				// and i = 105
+				
+				char o = 111;
+				char i = 105;
+				// IF you want to print both CHAR as letter you must add an empty "".
+				System.out.println("" + o +i);
+				// this will print: oi
+				
+				// but if you and add the empty "" it will print 116.
+
+				// ** Its also possible to use UNICODE codes to represent diferent Characters like arabic, greek ou latin signs.
+				char interrogacao = 0x00E1;
+				System.out.println("" + o +i+ interrogacao);
+				
+
+				// Real numbers with decimal case
+					
+					/* they are:
+					 * 
+					 * FLOAT: 32bits
+					 * *** when you declare a FLOAT you must add the letter F or f in the end of the number... is a literal
+					 * 
+					 * DOUBLE: 64 bits
+					 * 
+					 *  *** USE . dot to separe the decimal cases
+					 */
+					
+				
+				
+				char o = 111;
+				char i = 105;
+				// IF you want to print both CHAR as letter you must add an empty "".
+				System.out.println("" + o +i);
+				// this will print: oi
+				
+				// but if you and add the empty "" it will print 116.
+
+				// ** Its also possible to use UNICODE codes to represent diferent Characters like arabic, greek ou latin signs.
+				char interrogacao = 0x00E1;
+				
+				
+			}
+		}
+
+		
+	}
+
+}

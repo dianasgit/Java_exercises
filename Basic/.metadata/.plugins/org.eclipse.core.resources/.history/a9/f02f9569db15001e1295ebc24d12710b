@@ -1,0 +1,23 @@
+package Aula14;
+import java.util.Scanner;
+public class ControlStructures {
+
+	public static void main(String[] args) {
+
+		Scanner digite = new Scanner(System.in);
+		
+		System.out.println("Entre com sua idade: ");
+		int idade = digite.nextInt();
+		
+		if(idade >=18) {
+			System.out.println(idade+": É maior de idade.");
+		}
+		else {
+			System.out.println(idade +": Não é maior de idade.");
+		}
+		
+		
+		
+	}
+
+}

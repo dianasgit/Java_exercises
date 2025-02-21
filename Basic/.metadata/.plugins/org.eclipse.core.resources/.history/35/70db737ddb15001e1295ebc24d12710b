@@ -1,0 +1,39 @@
+package Aula14;
+import java.util.Scanner;
+public class ControlStructures {
+
+	public static void main(String[] args) {
+
+		Scanner digite = new Scanner(System.in);
+		
+/*		System.out.println("Entre com sua idade: ");
+		int idade = digite.nextInt();
+		
+		if(idade >=18) {
+			System.out.println(idade+": É maior de idade.");
+		}
+		else {
+			System.out.println(idade +": Não é maior de idade.");
+		}
+*/
+	
+		System.out.println("Entre com o preço do ítem: "); 
+		double preco = digite.nextDouble();
+		
+		if(preco <=10) {
+			System.out.println("Pode comprar está barato!");
+		} else if (valor > 10 && valor <15) {
+			System.out.println("Peça um desconto...");
+		} else if (valor >=15 && valor <20) {
+			System.out.println("Pesquise mais, está meio caro ..");
+		} else {
+			System.out.println("Não compre, está caro!");
+		}
+		
+		
+		
+		
+		
+	}
+
+}

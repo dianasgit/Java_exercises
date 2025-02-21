@@ -1,0 +1,37 @@
+package Aula12;
+import java.util.Scanner;
+public class ScannerFunction {
+	
+
+	// To reed data you must use the Class Scanner  like:
+
+ //	 Scanner nome = new Scanner (System.in);
+// scanner class + nome escolhido por mim = new Scanner vai instanciar a classe para nós e o parametro será o system.in
+	
+//existe tb outras duas classes de ler info (e arquivo tb) do teclado, porém por enquanto scanner é a mais simples e será usada no curso
+// para utilizar a classe Scanner precisa importar a biblio assim:
+	
+	// import java.util.Scanner;
+	
+/* There are two different way to reed data in the keyboard
+ *  
+ *   *** 1º Reed a whole line, do not mather if have diferent data type
+ *    String nome = scan.nextLine();
+ *    
+ *   *** 2º Reed a specific data type from the keyboard, use:
+ *   String primeiroNome = scan.next();
+ *   int idade = scan.nextInt();
+ *   double altura = scan.nextDouble();
+ */
+		
+	Scanner scanearNome = new Scanner(System.in);
+	System.out.println("Digite seu nome completo: ");
+	String nomeCompleto = scanearNome.nextLine(); // reed all the line
+	
+	
+	
+	
+	
+	
+	
+}

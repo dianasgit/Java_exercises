@@ -1,0 +1,20 @@
+package Vars;
+
+public class Main {
+	
+	public static void main (String[] args) {
+		
+		char o = 111;
+		char i = 105;
+		// IF you want to print both CHAR as letter you must add an empty "".
+		System.out.println("" + o +i);
+		// this will print: oi
+		
+		// but if you and add the empty "" it will print 116.
+
+		// ** Its also possible to use UNICODE codes to represent diferent Characters like arabic, greek ou latin signs.
+		char interrogacao = 0x00E1;
+		
+		
+	}
+}

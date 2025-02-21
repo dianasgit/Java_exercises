@@ -1,0 +1,47 @@
+package Aulas;
+public class Vars {
+	public static void main(String[] args) {
+
+		
+		/*  ##### INTEGER VARS #####
+		 * 
+		 * BYTE = 8bits = (-2^7) a (2^7 -1)
+		 * SHORT = 16bits = (-2^15) a (2^15 -1)
+		 * INT = 32bits = (-2^31) a (2^31 -1)
+		 * LONG = 64bits = (-2^63) a (2^63 -1)
+		 * 
+		 * The most used is INT and LONG
+		 * To make the java certification you neet the memorize this numbers
+		 */
+		
+		
+		/* ##### REAL NUMBERS - FLOATINS PONIT NUMBERS
+		 * 
+		 * FLOAT = 32bits
+		 *  ***to declare a float you must add a letter F or f in the end of the number ~ literal
+		 * 
+		 * DOUBLE = 64bits
+		 * 
+		 * the most used is DOUBLE
+		 * use . dot to separe the decimal part
+		 */
+		
+		
+		
+		/* ### CHARACTER
+		 * only print one charactere... you can use de ASCII 
+		 * and the UNICODE reference to print regular letters and simbles and different simbles like greek, arabic, etc..
+		 *  
+		 *  ** to print different (unicode or arcci) char as LETTERS together you must ass "" in the declaration
+		 *  see the exemple bellow
+		 */
+		
+		char o = 111; 					//ASCII
+		char i = 105;  					//ASCII
+		char interrogacao = 0X00E1;		//UNICODE
+		
+		System.out.println(""+ o+ i + interrogacao);
+		
+	}
+
+}

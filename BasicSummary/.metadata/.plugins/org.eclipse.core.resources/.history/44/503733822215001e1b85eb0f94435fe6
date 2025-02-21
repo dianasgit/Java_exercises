@@ -1,0 +1,19 @@
+package Vars;
+
+public class FloatingPoint {
+
+// Real numbers with decimal case
+	
+	/* they are:
+	 * 
+	 * FLOAT: 32bits
+	 * *** when you declare a FLOAT you must add the letter F or f in the end of the number... is a literal
+	 * 
+	 * DOUBLE: 64 bits
+	 * 
+	 *  *** USE . dot to separe the decimal cases
+	 */
+	
+	
+	
+}

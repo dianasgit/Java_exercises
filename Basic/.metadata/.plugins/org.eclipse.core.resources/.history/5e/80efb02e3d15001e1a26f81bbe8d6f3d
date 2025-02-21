@@ -1,0 +1,79 @@
+package Aulas;
+public class Vars {
+	public static void main(String[] args) {
+
+		
+		/*  ##### INTEGER VARS #####
+		 * 
+		 * BYTE = 8bits = (-2^7) a (2^7 -1)
+		 * SHORT = 16bits = (-2^15) a (2^15 -1)
+		 * INT = 32bits = (-2^31) a (2^31 -1)
+		 * LONG = 64bits = (-2^63) a (2^63 -1)
+		 * ****when you declare a LONG YOU can add the letter l after the number as a literal
+		 * this is a way to differentiate the long from the int.... all integer values are increated in the memory as a "defaut" int... this is a way to specify you long l
+		 * The same occour by adding a f in floating... because the default in the system is double
+		 * The most used is INT and LONG
+		 * To make the java certification you neet the memorize this numbers
+		 */
+		
+		
+		/* ##### REAL NUMBERS - FLOATINS PONIT NUMBERS
+		 * THIS CLASSES ACCEPT CIENTIFIC NOTATION!!!!
+		 *  TO REPRESENTE 10^N you write = eN (e IS 10 and N is the power).
+		 * 
+		 * FLOAT = 32bits
+		 *  ***to declare a float you must add a letter F or f in the end of the number ~ literal
+		 * 
+		 * DOUBLE = 64bits
+		 * 		 * the most used is DOUBLE
+		 * use . dot to separe the decimal part
+		 */
+		
+		double d1 = 123.4;
+		double d2 = 1.234e2;
+		//d1 == d2 but d2 is in scientific notation form
+		
+		float f1 = 123.4f;
+		
+		System.out.println("if 123.4 = 1.234e2 print true: "d1 == d2);
+		
+		
+		
+		/* ### CHARACTER
+		 * only print one charactere... you can use de ASCII 
+		 * and the UNICODE reference to print regular letters and simbles and different simbles like greek, arabic, etc..
+		 *  
+		 *  ** to print different (unicode or arcci) char as LETTERS together you must ass "" in the declaration
+		 *  see the exemple bellow
+		 */
+		
+		char o = 111; 					//ASCII
+		char i = 105;  					//ASCII
+		char interrogacao = 0X003F; 	//EXADECIMAL UNICODE = ?
+		
+		System.out.println("Imprimindo exadecimal  com ASCII e UNICODE: "+ ""+ o+ i + interrogacao);
+		System.out.print("Imprimindo  o + i  sem as aspas vira soma de numero do ASCII mesmo tendo sido atribuído o valor de letra sem usar codigo ASCII= ");
+		System.out.println( o + i + interrogacao);
+		
+		
+		double valorDaPassagem = 2.90; // will print without the zero
+		float valorTomate = 3.95f;
+		
+		System.out.println( "O valor DOUBLE da passagem é " + valorDaPassagem);
+		System.out.println( "O valor FLOAT do tomate é " + valorTomate);
+
+		
+		/* A QUESTION for interview: if you sum INTEGERs (any type like int, short, long, etc)  IF YOU SUM A LIMMIT BIGGER INT with ANOTHER BIG INTER, WHAT HAPPENS?
+		 * os numeros trabalham como carrocel, quando vc chega no limite ele volta pro início do lado oposto.. exemplo
+		 * se vc chega no limite do lado positivo, vc volta pro negativo e caminha com o valor como uma roleta
+		 */
+		
+		int var1 = 2147483647;
+		int var2 = 5;
+		int result = var1+var2;
+		
+		System.out.println("A soma de dois inteiros 2147483647 + 5 =" + result + " pois os numeros em java trabalham como uma roleta.");
+		
+	}
+
+}
