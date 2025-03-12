@@ -2,6 +2,7 @@ package Aula12;
 import java.util.Scanner;
 public class ScannerFunction {
 	
+@SuppressWarnings("resource")
 public static void main(String[] args) {
 
 	// To reed data you must use the Class Scanner  like:
